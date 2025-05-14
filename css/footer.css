@@ -1,0 +1,131 @@
+.footer{
+    background-color: #E1EDE6;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.footer__container{
+    display: flex;
+}
+.footer__tel{
+    margin-right: 115px;
+}
+.footer__tele>a{
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2C2D35;
+}
+.footer__tele{
+    margin-top: 35px;
+}
+.footer__sub-tel{
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #86928B;
+}
+.footer__socials{
+    margin-left: auto;
+}
+.footer__links{
+    margin-right: 10px;
+    display: flex;
+    column-gap: 60px;
+}
+.footer__social{
+    display: inline-block;
+}
+.footer__right{
+    max-width: 132px;
+}
+.footer__link-title{
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2C2D35;
+    margin-bottom: 6px;
+}
+.footer__link>a{
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #86928B;
+    transition: all 0.3s ease;
+}
+.footer__social:not(:last-child){
+    margin-right: 30px;
+}
+.footer__right{
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #86928B;
+    margin-top: 10px;
+}
+.icon path {
+    fill: #2C2D35;
+    transition: fill 0.3s ease;
+}
+.icon:hover path {
+    fill: #598D66;
+}
+.footer__link>a:hover{
+    color: #598D66;
+    transition: all 0.3s ease;
+}
+.footer__tele>a:hover{
+    color: #598D66;
+    transition: all 0.3s ease;
+}
+@media(max-width:940px){
+    .footer__tel{
+        margin-right: 50px;
+    }
+    .footer__links{
+        column-gap: 30px;
+    }
+    .footer__social:not(:last-child){
+    margin-right: 30px;
+    }
+}
+@media(max-width:690px){
+    .footer__container{
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .footer__tel{
+        margin-right: 0;
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .footer__tele{
+        margin-top: 0;
+    }
+}
+@media(max-width:576px){
+    .footer__links{
+        justify-content: space-between;
+        flex: 1 1 100%;
+        border-bottom: 1px solid #C3D1C6;
+        margin-bottom: 16px;
+    }
+    .footer__socials{
+        margin: auto;
+    }
+}
+@media(max-width:425px){
+    .footer__links{
+        flex-wrap: wrap;
+        column-gap: 40px;
+    }
+    .footer__communication{
+        margin-left: 10px;
+    }
+    .footer__link-item{
+        flex: 1 1 calc(50%-60px);
+        margin-bottom: 10px;
+    }
+}
