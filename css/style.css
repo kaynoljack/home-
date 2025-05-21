@@ -5,6 +5,7 @@
 @import url('reproduction.css');
 @import url('footer.css');
 @import url('team.css');
+@import url('new.css');
 .container{
     max-width: 1135px;
     padding-left: 10px;

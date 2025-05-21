@@ -1,4 +1,4 @@
-'use string'
+'use strict'
 const burgerIcon=document.querySelector('.menu__icon');
 const menuBody=document.querySelector('.menu__body');
 const body = document.body;

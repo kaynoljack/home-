@@ -1,4 +1,4 @@
-'use string'
+'use strict'
 const valuesTabs = document.querySelector('.reproduction__values')
 valuesTabs.addEventListener('click',(e)=>{
     if(e.target && !e.target.closest('.reproduction__value')){
